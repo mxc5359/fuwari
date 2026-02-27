@@ -1,10 +1,10 @@
 ---
-title: Simple Guides for Fuwari
+title: 帖子模板
 published: 2024-04-01
-description: "How to use this blog template."
+description: "如何使用这个博客模板。"
 image: "./cover.jpeg"
-tags: ["Fuwari", "Blogging", "Customization"]
-category: Guides
+tags: ["Fuwari", "博客", "自定义"]
+category: 示例
 draft: false
 ---
 
@@ -12,7 +12,7 @@ draft: false
 
 This blog template is built with [Astro](https://astro.build/). For the things that are not mentioned in this guide, you may find the answers in the [Astro Docs](https://docs.astro.build/).
 
-## Front-matter of Posts
+## 帖子示例
 
 ```yaml
 ---
@@ -25,22 +25,21 @@ category: Front-end
 draft: false
 ---
 ```
-
-| Attribute     | Description                                                                                                                                                                                                 |
+|名称         | 描述                                                                                                                                                                                                 |
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `title`       | The title of the post.                                                                                                                                                                                      |
-| `published`   | The date the post was published.                                                                                                                                                                            |
-| `description` | A short description of the post. Displayed on index page.                                                                                                                                                   |
-| `image`       | The cover image path of the post.<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
-| `tags`        | The tags of the post.                                                                                                                                                                                       |
-| `category`    | The category of the post.                                                                                                                                                                                   |
-| `draft`        | If this post is still a draft, which won't be displayed.                                                                                                                                                    |
+| `title`       | 帖子标题。                                                                                                                                                                                      |
+| `published`   | 帖子发布的日期。                                                                                                                                                                           |
+| `description` | 简要介绍一下帖子。显示在索引页。                                                                                                                                                   |
+| `image`       | 帖子的封面图像路径。<br/>1. Start with `http://` or `https://`: Use web image<br/>2. Start with `/`: For image in `public` dir<br/>3. With none of the prefixes: Relative to the markdown file |
+| `tags`        | 帖子标签。                                                                                                                                                                                       |
+| `category`    | 帖子的分类。                                                                                                                                                                                   |
+| `draft`        | 如果这篇帖子还是草稿，那就不会显示出来。                                                                                                                                                    |
 
-## Where to Place the Post Files
+## Post 文件的放置位置
 
 
 
-Your post files should be placed in `src/content/posts/` directory. You can also create sub-directories to better organize your posts and assets.
+你的帖子文件应该放在目录 `src/content/posts/` 里。你还可以创建子目录，更好地组织帖子和资源。
 
 ```
 src/content/posts/
